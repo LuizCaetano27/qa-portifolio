@@ -29,9 +29,8 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
   - Código  
   - Descrição  
   - Tipo  
-- A seção de variáveis deve carregar corretamente  
-
-## Análise
+- A seção de variáveis deve carregar corretamente
+  
 ## Análise
 Indício de falha no mapeamento dos dados no front-end ou retorno incompleto da API, impactando a renderização das colunas código e tipo.
 
