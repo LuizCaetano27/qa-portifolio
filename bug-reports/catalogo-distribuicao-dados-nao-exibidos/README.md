@@ -1,4 +1,4 @@
-Bug Report – Catálogo de Distribuição não exibe código e tipo dos itens
+Bug Report – Falha na exibição de código e tipo na listagem de itens de distribuição
 
 Sistema: Alpha CRM  
 Ambiente: QAS  
