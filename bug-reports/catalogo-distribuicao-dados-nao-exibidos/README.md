@@ -19,10 +19,10 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
 ![Evidência](evidencia-01.png)
 
 ## Resultado atual
-- Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")  
-- A coluna de código não apresenta valor visível  
-- A coluna de tipo não exibe informação  
-- A seção de variáveis não é carregada corretamente  
+- Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")
+- A coluna de código não apresenta valor
+- A coluna de tipo não é exibida
+- A seção de variáveis não é carregada 
 
 ## Resultado esperado
 - O sistema deve exibir corretamente:
@@ -32,7 +32,8 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
 - A seção de variáveis deve carregar corretamente  
 
 ## Análise
-Possível falha no mapeamento ou carregamento dos dados no front-end ou retorno incompleto da API.
+## Análise
+Indício de falha no mapeamento dos dados no front-end ou retorno incompleto da API, impactando a renderização das colunas código e tipo.
 
 ## Sugestões de melhoria
 - Validar retorno do back-end  
