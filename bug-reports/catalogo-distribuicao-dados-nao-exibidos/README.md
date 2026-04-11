@@ -16,7 +16,7 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
 - Observar a listagem exibida no catálogo  
 
 ## Evidência
-(Adicionar imagem depois)
+![Evidência](evidencia-01.png)
 
 ## Resultado atual
 - Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")  
