@@ -1,0 +1,40 @@
+# Bug Report – Catálogo de Distribuição não exibe código e tipo dos itens
+
+Sistema: Alpha CRM  
+Ambiente: QAS  
+Tipo de teste: Funcional + UI  
+
+Impacto: Médio  
+
+## Contexto
+Durante a validação do cadastro de item de distribuição, foi identificado que a listagem do catálogo não exibe corretamente informações essenciais do item, como código e tipo, apresentando apenas a descrição.
+
+## Cenário
+- Acessar o Alpha CRM  
+- Navegar até Produtos & Serviços > Distribuição  
+- Acessar ou cadastrar um item de distribuição  
+- Observar a listagem exibida no catálogo  
+
+## Evidência
+(Adicionar imagem depois)
+
+## Resultado atual
+- Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")  
+- A coluna de código não apresenta valor visível  
+- A coluna de tipo não exibe informação  
+- A seção de variáveis não é carregada corretamente  
+
+## Resultado esperado
+- O sistema deve exibir corretamente:
+  - Código  
+  - Descrição  
+  - Tipo  
+- A seção de variáveis deve carregar corretamente  
+
+## Análise
+Possível falha no mapeamento ou carregamento dos dados no front-end ou retorno incompleto da API.
+
+## Sugestões de melhoria
+- Validar retorno do back-end  
+- Verificar mapeamento no front-end  
+- Ajustar renderização da tela  
