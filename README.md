@@ -65,3 +65,16 @@ Incluindo:
 
 ## 🎯 Objetivo
 Demonstrar na prática minhas habilidades em QA, evidenciando não apenas a execução de testes, mas também a análise de comportamento do sistema, documentação de problemas e contribuição para melhoria da qualidade do produto.
+
+## 📂 Casos de Teste e Bugs
+
+### 🐞 Bug Reports
+
+- [Validação de telefone inválido](./bug-reports/validacao-telefone-invalido/README.md)
+- [Catálogo não exibe dados corretamente](./bug-reports/catalogo-distribuicao-dados-nao-exibidos/README.md)
+
+### 🔍 Testes Exploratórios
+(Em breve)
+
+### 🤖 Automação com Cypress
+(Em breve)
