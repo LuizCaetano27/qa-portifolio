@@ -3,7 +3,6 @@ Bug Report – Falha na exibição de código e tipo na listagem de itens de dis
 Sistema: Alpha CRM  
 Ambiente: QAS  
 Tipo de teste: Funcional + UI  
-
 Impacto: Médio  
 
 ## Contexto
