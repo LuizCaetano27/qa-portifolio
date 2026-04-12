@@ -30,11 +30,8 @@ Esse comportamento compromete a integridade dos dados e pode impactar diretament
 ---
 ## Evidências
 
-### Evidência 1
-![Telefone inválido](evidencia-01.png)
-
-### Evidência 2
-![Contato com caracteres especiais](evidencia-02.png)
+![Telefone inválido](./evidencia-01.png)
+![Contato com caracteres especiais](./evidencia-02.png)
 
 ---
 
