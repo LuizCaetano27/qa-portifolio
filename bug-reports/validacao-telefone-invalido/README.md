@@ -5,7 +5,6 @@ Navegadores: Brave e Edge
 Versão: 1.88.136 (Brave), 146.0.3856.72 (Edge)  
 Ambiente: QAS  
 Impacto: Médio  
-
 Tipo: Bug  
 
 ---
@@ -31,7 +30,11 @@ Esse comportamento compromete a integridade dos dados e pode impactar diretament
 
 ## Evidências
 
+### Evidência 1 – Telefone inválido
+![Telefone inválido](evidencia-01.png)
 
+### Evidência 2 – Contato com caracteres especiais
+![Contato inválido](evidencia-02.png)
 
 ---
 
