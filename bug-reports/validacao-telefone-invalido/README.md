@@ -28,9 +28,14 @@ Esse comportamento compromete a integridade dos dados e pode impactar diretament
 - Finalizar abertura do chamado  
 
 ---
+
 ## Evidências
 
-![Telefone inválido](evidencia-01.png.png)
+### Evidência 1 – Telefone inválido
+![Telefone inválido](evidencia-01.png)
+
+### Evidência 2 – Contato com caracteres especiais
+![Contato inválido](evidencia-02.png)
 
 ---
 
