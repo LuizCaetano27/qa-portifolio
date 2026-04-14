@@ -14,8 +14,8 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
 - Acessar ou cadastrar um item de distribuição  
 - Observar a listagem exibida no catálogo  
 
-## Evidência
-![Evidência](evidencia-01.png)
+## Evidências
+(Conteúdo omitido para preservar informações sensíveis do ambiente corporativo)
 
 ## Resultado atual
 - Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")
