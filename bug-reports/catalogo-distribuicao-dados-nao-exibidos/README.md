@@ -1,27 +1,27 @@
-Bug Report – Falha na exibição de código e tipo na listagem de itens de distribuição
+# Bug Report – Falha na exibição de código e tipo na listagem de itens
 
-Sistema: Alpha CRM  
+Sistema: CRM Web  
 Ambiente: QAS  
 Tipo de teste: Funcional + UI  
 Impacto: Médio  
 
 ## Contexto
-Durante a validação do cadastro de item de distribuição, foi identificado que a listagem do catálogo não exibe corretamente informações essenciais do item, como código e tipo, apresentando apenas a descrição.
+Durante a validação do cadastro de itens, foi identificado que a listagem não exibe corretamente informações essenciais, como código e tipo, apresentando apenas a descrição.
 
 ## Cenário
-- Acessar o Alpha CRM  
-- Navegar até Produtos & Serviços > Distribuição  
-- Acessar ou cadastrar um item de distribuição  
-- Observar a listagem exibida no catálogo  
+- Acessar o sistema CRM  
+- Navegar até o módulo de cadastro de itens  
+- Acessar ou cadastrar um item  
+- Observar a listagem exibida  
 
 ## Evidências
 (Conteúdo omitido para preservar informações sensíveis do ambiente corporativo)
 
 ## Resultado atual
-- Apenas a coluna de descrição é exibida (ex: "NG Folha", "NG Fiscal")
-- A coluna de código não apresenta valor
-- A coluna de tipo não é exibida
-- A seção de variáveis não é carregada 
+- Apenas a coluna de descrição é exibida  
+- A coluna de código não apresenta valor  
+- A coluna de tipo não é exibida  
+- A seção de variáveis não é carregada  
 
 ## Resultado esperado
 - O sistema deve exibir corretamente:
@@ -31,7 +31,7 @@ Durante a validação do cadastro de item de distribuição, foi identificado qu
 - A seção de variáveis deve carregar corretamente
   
 ## Análise
-Indício de falha no mapeamento dos dados no front-end ou retorno incompleto da API, impactando a renderização das colunas código e tipo.
+Indício de falha no mapeamento dos dados no front-end ou retorno incompleto da API, impactando a renderização das colunas.
 
 ## Sugestões de melhoria
 - Validar retorno do back-end  
