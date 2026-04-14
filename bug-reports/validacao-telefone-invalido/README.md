@@ -1,25 +1,21 @@
-Sistema: Alpha Atendimento / Alpha CRM  
-Licença: 832099  
-Empresa: Não se aplica  
-Navegadores: Brave e Edge  
-Versão: 1.88.136 (Brave), 146.0.3856.72 (Edge)  
+# Bug Report – Falha na validação de telefone e campo de contato na abertura de chamado
+
+Sistema: Sistema de Atendimento Web  
 Ambiente: QAS  
+Tipo de teste: Funcional + UX  
 Impacto: Médio  
-Tipo: Bug  
 
 ---
 
-## Contexto:
+## Contexto
 
-Durante a abertura de chamado, o sistema permite o preenchimento de campos obrigatórios com dados inválidos, como telefone zerado e campo de contato contendo caracteres especiais.
-
-Esse comportamento compromete a integridade dos dados e pode impactar diretamente a comunicação com o cliente.
+Durante a abertura de chamado, foi identificado que o sistema permite o preenchimento de campos obrigatórios com dados inválidos, como telefone zerado e campo de contato contendo caracteres especiais. Esse comportamento compromete a integridade dos dados e pode impactar diretamente a comunicação com o usuário.
 
 ---
 
-## Cenário:
+## Cenário
 
-- Acessar o Alpha Atendimento  
+- Acessar o sistema de atendimento  
 - Iniciar abertura de chamado  
 - Preencher os campos obrigatórios de contato  
 - No campo telefone, inserir valor zerado (ex: 0000000000)  
@@ -30,39 +26,43 @@ Esse comportamento compromete a integridade dos dados e pode impactar diretament
 
 ## Evidências
 
-### Evidência 1 – Telefone inválido
-![Telefone inválido](evidencia-01.png)
-
-### Evidência 2 – Contato com caracteres especiais
-![Contato inválido](evidencia-02.png)
+(Evidências omitidas para preservar informações sensíveis do ambiente corporativo)
 
 ---
 
-## Resultado atual:
+## Resultado atual
 
-- O sistema permite abertura de chamado com telefone inválido (zerado)  
+- O sistema permite abertura de chamado com telefone inválido (sequência de zeros)  
 - O sistema permite preenchimento do campo contato com caracteres especiais  
-- Não há validação ou orientação ao usuário  
+- Não há validação ou feedback ao usuário  
 
 ---
 
-## Resultado esperado:
+## Resultado esperado
 
 - O sistema deve validar o campo telefone, impedindo valores inválidos (ex: sequência de zeros ou formato incorreto)  
-- O campo contato deve restringir entrada de caracteres inválidos  
+- O campo contato deve restringir a entrada de caracteres inválidos  
 - Deve ser exibida mensagem orientando o preenchimento correto  
 
 ---
 
-## Regra de negócio:
+## Regra de negócio
 
 Campos obrigatórios devem garantir integridade e validade mínima dos dados informados.
 
 ---
 
-## Sugestão de ajustes:
+## Análise
+
+Indício de ausência de validação no front-end e possível ausência de validação no back-end, permitindo a persistência de dados inválidos.
+
+---
+
+## Sugestões de melhoria
 
 - Implementar validação de formato no campo telefone  
 - Restringir caracteres permitidos no campo contato  
-- Garantir validação no front-end e no back-end  
+- Garantir validação tanto no front-end quanto no back-end  
+- Exibir mensagens claras de erro para o usuário  
 
+---
