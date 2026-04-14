@@ -1,6 +1,6 @@
-# Bug Report – Filtro não aplica corretamente na visão Kanban
+# Bug Report – Filtro não aplica corretamente na visualização Kanban
 
-Sistema: Alpha CRM  
+Sistema: CRM Web  
 Ambiente: QAS  
 Tipo de teste: Funcional + UX  
 Impacto: Médio  
@@ -9,16 +9,14 @@ Impacto: Médio
 
 ## Contexto
 
-Durante a validação da visualização em Kanban na tela de oportunidades, foi identificado comportamento inconsistente no uso do filtro.
-
-Ao aplicar critérios de filtragem, o sistema não retorna corretamente os dados esperados e apresenta comportamento inesperado ao interagir com o botão de filtragem.
+Durante a validação da visualização em Kanban na tela de gestão de registros, foi identificado comportamento inconsistente no uso do filtro. Ao aplicar critérios de filtragem, o sistema não retorna corretamente os dados esperados e apresenta comportamento inesperado ao interagir com o botão de filtragem.
 
 ---
 
 ## Cenário
 
-- Acessar o Alpha CRM  
-- Navegar até a tela de Oportunidades (visão Kanban)  
+- Acessar o sistema CRM  
+- Navegar até a tela de registros em visualização Kanban  
 - Clicar no ícone de filtro  
 - Definir critérios (ex: período, status, responsável)  
 - Clicar em "Filtrar"  
@@ -30,14 +28,16 @@ Ao aplicar critérios de filtragem, o sistema não retorna corretamente os dados
 - O filtro não aplica corretamente os critérios definidos  
 - Os dados exibidos não correspondem ao filtro aplicado  
 - Ao clicar em "Filtrar", o modal de filtro é fechado automaticamente  
-- O fechamento ocorre mesmo sem confirmação visual clara da aplicação do filtro  
+- O fechamento ocorre sem confirmação visual clara da aplicação do filtro  
 
 ---
-## Evidência
 
-![Filtro Kanban](evidencia-01.png)
+## Evidências
+
+(Evidência omitida para preservar informações sensíveis do ambiente corporativo)
 
 ---
+
 ## Resultado esperado
 
 - O sistema deve aplicar corretamente os critérios definidos no filtro  
@@ -49,9 +49,9 @@ Ao aplicar critérios de filtragem, o sistema não retorna corretamente os dados
 
 ## Análise
 
-Possível falha na aplicação dos parâmetros de filtro no front-end ou inconsistência no envio/retorno dos dados do back-end.
+Indício de falha na aplicação dos parâmetros de filtro no front-end ou inconsistência no envio/retorno dos dados do back-end.
 
-O comportamento de fechamento do modal pode indicar execução parcial da ação sem atualização correta da tela.
+O comportamento de fechamento do modal sugere execução parcial da ação, sem atualização consistente da interface.
 
 ---
 
@@ -63,4 +63,3 @@ O comportamento de fechamento do modal pode indicar execução parcial da ação
 - Avaliar necessidade de manter o modal aberto até confirmação visual dos dados filtrados  
 
 ---
-
