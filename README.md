@@ -1,5 +1,12 @@
 # 👋 Luiz Caetano
 
+QA Analyst | Test Automation | API Testing
+
+📍 Minas Gerais - Brasil
+
+💼 Analista de QA
+
+🎯 Em evolução para QA Pleno
 # 🧪 QA Portfolio
 
 Bem-vindo ao meu portfólio de Qualidade de Software.
