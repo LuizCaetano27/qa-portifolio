@@ -1,80 +1,128 @@
-# QA Portfolio – Luiz Caetano
+# 👋 Luiz Caetano
 
-Portfólio com exemplos práticos de atuação em QA, incluindo documentação de bugs, casos de teste, testes exploratórios e automação.
+# 🧪 QA Portfolio
 
----
+Bem-vindo ao meu portfólio de Qualidade de Software.
 
-## 📌 Sobre mim
-Analista de QA com experiência em testes de sistemas web e desktop, atuando com foco na validação de regras de negócio, identificação de falhas e melhoria da qualidade das entregas.
-
-Experiência em testes funcionais, regressivos e exploratórios, incluindo cenários com baixa documentação, além de conhecimento em automação de testes com Cypress e validação de dados em SQL Server.
+Este repositório reúne exemplos práticos do meu trabalho como Analista de QA, incluindo documentação de bugs, casos de teste, testes exploratórios, consultas SQL e projetos de automação.
 
 ---
 
-## 🔍 O que você vai encontrar aqui
+## 👨‍💻 Sobre mim
 
-### 🐞 Bug Reports
-Documentação de bugs reais com:
-- Contexto claro
+Sou Analista de QA com experiência em validação de aplicações web, testes funcionais, regressivos, exploratórios e de integração.
+
+Tenho experiência com:
+
+- ✅ Testes Funcionais
+- ✅ Testes Exploratórios
+- ✅ Testes Regressivos
+- ✅ Validação de APIs
+- ✅ Consultas SQL
+- ✅ Automação com Cypress
+- ✅ Git e GitHub
+- ✅ Azure DevOps
+
+Meu objetivo é contribuir para a entrega de software com qualidade, reduzindo riscos e garantindo uma melhor experiência para o usuário.
+
+---
+
+# 📁 Estrutura do Portfólio
+
+## 🐞 Bug Reports
+
+Documentação de bugs encontrados durante testes.
+
+Conteúdo:
+
+- Descrição
 - Passos para reprodução
-- Resultado atual vs esperado
-- Análise de impacto
-- Sugestões de melhoria
-
-📁 Exemplo:
-- inbox-validacao-campos-obrigatorios
-
----
-
-### 📋 Test Cases
-Casos de teste estruturados com base em cenários reais:
-- Fluxos positivos e negativos
-- Validação de regras de negócio
-- Escrita clara e objetiva
+- Resultado esperado
+- Resultado obtido
+- Evidências
+- Severidade
+- Impacto
 
 ---
 
-### 🔎 Testes Exploratórios
-Sessões de testes exploratórios com foco em:
-- Identificação de falhas não documentadas
-- Validação de comportamento do sistema
-- Análise de riscos
+## 📋 Test Cases
+
+Casos de teste baseados em cenários reais.
+
+Incluindo:
+
+- Fluxos positivos
+- Fluxos negativos
+- Regras de negócio
+- Critérios de aceite
 
 ---
 
-### 🤖 Automação de Testes
-Projetos de automação utilizando:
+## 🔎 Testes Exploratórios
+
+Sessões exploratórias contendo:
+
+- Objetivo
+- Cenários executados
+- Riscos encontrados
+- Evidências
+- Conclusões
+
+---
+
+## 🤖 Automação
+
+Projetos desenvolvidos utilizando:
+
 - Cypress
 - JavaScript
 
-Incluindo:
-- Estrutura de testes
-- Organização de cenários
-- Reaproveitamento de código
+Em breve serão disponibilizados exemplos completos de automação E2E.
 
 ---
 
-## 🛠️ Tecnologias e ferramentas
-- Cypress  
-- JavaScript  
-- SQL Server  
-- Azure DevOps  
-- Git / GitHub  
+## 🌐 API Testing
+
+Validação de APIs utilizando:
+
+- Postman
+- Swagger
+
+Em breve.
 
 ---
 
-## 🎯 Objetivo
-Demonstrar na prática minhas habilidades em QA, evidenciando não apenas a execução de testes, mas também a análise de comportamento do sistema, documentação de problemas e contribuição para melhoria da qualidade do produto.
+## 🗄 SQL
 
-## 📂 Casos de Teste e Bugs
+Consultas utilizadas para validação de dados.
 
-### 🐞 Bug Reports
+Em breve.
 
-- [Validação de telefone inválido](./bug-reports/validacao-telefone-invalido/README.md)
-- [Catálogo não exibe dados corretamente](./bug-reports/catalogo-distribuicao-dados-nao-exibidos/README.md)
+---
 
-### 🔍 Testes Exploratórios
-(Em breve)
+# 🛠 Tecnologias
 
-### 🤖 Automação com Cypress
-(Em breve)
+| Tecnologia | Utilização |
+|------------|------------|
+| Cypress | Automação de testes |
+| JavaScript | Scripts |
+| SQL Server | Validação de banco |
+| Postman | Testes de API |
+| Git | Versionamento |
+| GitHub | Portfólio |
+| Azure DevOps | Gestão de demandas |
+
+---
+
+# 🚀 Objetivo
+
+Este portfólio demonstra minha forma de trabalhar como QA, evidenciando organização, documentação, análise crítica e automação de testes.
+
+Meu foco é compartilhar exemplos práticos que representem minha atuação profissional.
+
+---
+
+## 📬 Contato
+
+- LinkedIn: https://www.linkedin.com/in/lgac/
+- GitHub: https://github.com/LuizCaetano27
