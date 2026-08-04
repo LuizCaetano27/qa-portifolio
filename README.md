@@ -2,7 +2,7 @@
 
 QA Analyst | Test Automation | API Testing
 
-📍 Minas Gerais - Brasil
+📍 Contagem - Minas Gerais - Brasil
 
 💼 Analista de QA
 
