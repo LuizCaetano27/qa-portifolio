@@ -27,9 +27,10 @@ Tenho experiência com:
 - ✅ Validação de APIs
 - ✅ Consultas SQL
 - ✅ Automação com Cypress
+- ✅ Automação com Playwright
 - ✅ Git e GitHub
 - ✅ Azure DevOps
-
+- ✅ Jira
 Meu objetivo é contribuir para a entrega de software com qualidade, reduzindo riscos e garantindo uma melhor experiência para o usuário.
 
 ---
